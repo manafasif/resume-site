@@ -1,10 +1,11 @@
 {
   "main": {
-    "name":"Manaf Asif's Site",
+    "sitename": "Manaf Asif's Site",
+    "name":"Manaf Asif",
     "description":"A glimpse into some of the work I've done and the skills I've gained along the way",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"I love to knit. Not with yarn, but with the very threads of technology that propel humanity forward. Whether it be twisting machine learning with computer vision to develop advanced robots or intertwining PID algorithms with radionavigation to create UAVs, every experience was accompanied by the exhilaration of transforming a tangle of concepts into the lacework of a solution. It's a feeling that drove me to UT Austin, ready to explore the vast specializations and opportunities that lie in the field of CS while indulging myself in the hackathons and passion projects that define the UTCS experience.",
+    "contactmessage":"Contact me through here or through my email as listed below!",
     "email": "manaf@utexas.edu",
     "phone": "(832) 874-5080",
     "github":"https://github.com/manafasif",

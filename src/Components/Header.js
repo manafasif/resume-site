@@ -12,7 +12,7 @@ class Header extends Component {
 
     const project = this.props.data.project;
     const github = this.props.data.github;
-    const name = this.props.data.name;
+    const siteName = this.props.data.sitename;
     const description = this.props.data.description;
 
     let config = {
@@ -27,14 +27,14 @@ class Header extends Component {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
         }}>
-          <ParticlesBg type="cobweb" config={config} bg={true} />
+          {/* <ParticlesBg type="cobweb" config={config} bg={true} /> */}
           <Nav />
           
           {/* <div > */}
             <div className="row banner" >
               <div className="banner-text">
                 <Fade bottom>
-                  <h1 className="responsive-headline" style={{textShadow: true, color: HEADER_COLOR}}>{name}</h1>
+                  <h1 className="responsive-headline" style={{textShadow: true, color: HEADER_COLOR}}>{siteName}</h1>
                 </Fade>
                 <Fade bottom duration={1200}>
                   <h3 style={{ 
