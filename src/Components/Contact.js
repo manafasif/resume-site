@@ -87,7 +87,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit" style={{ borderRadius: "10px" }}>Submit</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -117,7 +117,7 @@ class Contact extends Component {
                 </p>
               </div>
 
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -144,7 +144,7 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>

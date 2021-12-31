@@ -134,8 +134,11 @@ header .scrolldown a:hover { color: #0762f9; }
    position: fixed;
    left: 0;
    top: 0;
+   color: ;
 }
-.opaque { background-color: #333; }
+.opaque { 
+   background-color: #333; 
+}
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -173,8 +176,8 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li a:active { background-color: transparent !important; color: rgb(0, 5, 36) !important;}
+ul#nav li.current a { color: #0474b3; }
 
 
 /* ------------------------------------------------------------------ */
@@ -852,6 +855,7 @@ call-to-action .button {
    font-size: 15px;
    line-height: 24px;
    width: 65%;
+   border-radius: 10px;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -1017,8 +1021,20 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .project-btn{
-   background-color: #1abc9c !important;
+   background-color: #0474b3 !important;
+   border-radius: 10px;
+}
+.project-btn:hover{
+   background-color: #003858 !important;
 }
 .github-btn{
    background-color: #34495e !important;
+   border-radius: 10px;
+}
+.github-btn:hover{
+   background-color: #111a22 !important;
+}
+
+.button{
+   border-radius: 10px;
 }

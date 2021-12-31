@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
 
+import ProjectCarousel from "./ProjectCarousel";
+
 class Resume extends Component {
   getRandomColor() {
     let letters = "0123456789ABCDEF";
@@ -23,7 +25,8 @@ class Resume extends Component {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p className="info">GPA: {education.gpa}</p>
+          <p dangerouslySetInnerHTML={{__html: education.description}}></p>
         </div>
       );
     });
@@ -36,7 +39,7 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <p dangerouslySetInnerHTML={{__html: work.description}}></p>
         </div>
       );
     });
@@ -93,13 +96,32 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
+              <h5>{skillmessage}</h5>
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>
               </div>
             </div>
           </div>
+        </Slide>
+
+        {/* Project portfolio */}
+        <Slide left duration={1300}>
+          <div className="row porfolio">
+            <div className="three columns header-col">
+              <h1>
+                <span>Portfolio</span>
+              </h1>
+            </div>
+            <div className="nine columns main-col">
+              <h5>Check Out Some of My Past Projects:</h5>
+              <ProjectCarousel />
+            </div>
+
+
+          </div>
+
+
         </Slide>
       </section>
     );

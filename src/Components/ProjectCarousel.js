@@ -1,5 +1,7 @@
 import { Carousel } from 'react-carousel-minimal';
 import { CarouselData } from './CarouselData';
+import Fade from "react-reveal";
+
 
 const captionStyle = {
     fontSize: '2em',
@@ -12,35 +14,40 @@ const slideNumberStyle = {
 function ProjectCarousel() {
     
     return (
-        <div style={{
-            padding: "0 20px"
-          }}>
-            <Carousel
-              data={CarouselData}
-              time={2000}
-              width="850px"
-              height="500px"
-              captionStyle={captionStyle}
-              radius="10px"
-              slideNumber={true}
-              slideNumberStyle={slideNumberStyle}
-              captionPosition="bottom"
-              automatic={true}
-              dots={true}
-              pauseIconColor="white"
-              pauseIconSize="40px"
-              slideBackgroundColor="darkgrey"
-              slideImageFit="cover"
-              thumbnails={true}
-              thumbnailWidth="100px"
-              style={{
-                textAlign: "center",
-                maxWidth: "850px",
-                maxHeight: "500px",
-                margin: "40px auto",
-              }}
-            />
-        </div>
+        <section id="resume">
+            <Fade left duration={1000} distance="40px">
+                <div style={{
+                    padding: "0 20px"
+                }}>
+                    
+                    <Carousel
+                    data={CarouselData}
+                    time={2000}
+                    
+                    captionStyle={captionStyle}
+                    radius="10px"
+                    slideNumber={false}
+                    // slideNumberStyle={slideNumberStyle}
+                    captionPosition="bottom"
+                    automatic={true}
+                    dots={true}
+                    pauseIconColor="white"
+                    pauseIconSize="40px"
+                    slideBackgroundColor="darkgrey"
+                    slideImageFit="cover"
+                    thumbnails={true}
+                    thumbnailWidth="75px"
+                    style={{
+                        textAlign: "center",
+                        maxWidth: "850px",
+                        maxHeight: "500px",
+                        margin: "0px",
+                    }}
+                    />
+                </div>
+            </Fade>
+        </section>
+        
     )
 }
 
