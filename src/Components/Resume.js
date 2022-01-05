@@ -26,7 +26,7 @@ class Resume extends Component {
             <em className="date">{education.graduated}</em>
           </p>
           <p className="info">GPA: {education.gpa}</p>
-          <p dangerouslySetInnerHTML={{__html: education.description}}></p>
+          <p dangerouslySetInnerHTML={{ __html: education.description }}></p>
         </div>
       );
     });
@@ -39,7 +39,7 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p dangerouslySetInnerHTML={{__html: work.description}}></p>
+          <p dangerouslySetInnerHTML={{ __html: work.description }}></p>
         </div>
       );
     });
@@ -97,6 +97,7 @@ class Resume extends Component {
 
             <div className="nine columns main-col">
               <h5>{skillmessage}</h5>
+              <br />
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>

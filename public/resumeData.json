@@ -45,37 +45,37 @@
         "company": "Texas Association of Business: The Texas State Chamber",
         "title": "Business Systems Analyst",
         "years": "Aug 2021 – Present",
-        "description": "Designed, implemented, and maintained dynamic website using <b>JavaScript</b> on <b>Velo</b>. Performed technical consultations and systems optimization, refining and optimizing business processes with technology. Collaborated directly with supervisors to research and implement solution for managing many concurrent events with hundreds of attendees per requirements, leading to an 80% reduction in event management time."
+        "description": "Designed, implemented, and maintained dynamic website using <b>JavaScript</b> on <b>Velo</b> <br/><br/>Performed technical consultations and systems optimization, refining and optimizing business processes with technology <br/><br/>Collaborated directly with supervisors to research and implement solution for managing many concurrent events with hundreds of attendees per requirements, leading to an 80% reduction in event management time"
       },
       {
         "company": "Trammell PC",
         "title": "Systems Analyst",
         "years": "July 2020 – Dec 2021",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Worked with management to optimize workflow by implementing automated solutions to efficiently process thousands of clients, reducing client entry creation time by 60% <br/><br/>Applied technical skills in a dynamic consultant/support role, performing emergency tech repairs and data recovery<br/><br/>Designed automated form filling and mass package tracking tools using <b>Python</b> and <b>Selenium WebDriver</b>, reducing processing time by 95% and increasing data accuracy significantly<br/><br/>Managed database of hundreds of thousands of court exhibits and client records<br/><br/>Implemented scripts to automate and enforce formatting guidelines"
       },
       {
         "company": "Real Time IT Solutions",
         "title": "Web Developer; Android Developer",
         "years": "June 2020 – June 2021",
-        "description": "Consulted with clients to refine their visions into realistic and effective products while defining stages of development. Utilized tools such as <b>ReactJS</b> and <b>Android Studio</b> to develop applications, implementing client feedback at each stage."
+        "description": "Consulted with clients to refine their visions into realistic and effective products while defining stages of development<br/><br/>Utilized tools such as <b>ReactJS</b> and <b>Android Studio</b> to develop applications, implementing client feedback at each stage"
       },
       {
         "company": "An-Nisa",
         "title": "Project Manager",
         "years": "June 2020 – June 2021",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Coordinated development of application designed to guide students through high school<br/><br/>Guided team during development of <a href=https://collegeroadmap-ubswm.mongodbstitch.com/login>MVP</a> using ReactJS and MongoDB<br/><br/>Incorporated “Career Counseling” program into their workflow and client management system"
       },
       {
         "company": "Manaf’s Machines",
         "title": "Founder",
         "years": "July 2019 – Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Provided clients with computer/3D printing consultations and complete PC builds<br/><br/>Compiled parts, assembled hardware, and setup software for servers and PCs used in personal and commercial applications<br/><br/>Developed website (<a href=http://manafmachines.com>manafmachines.com</a>)"
       },
       {
         "company": "The Humanitarian Benefactor Society",
         "title": "Founder; Lead Web Developer",
         "years": "Mar 2019 – Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": "Administered collection and refurbishment of computers for redistribution to underrepresented communities<br/><br/>Restored various electronics and installed custom lightweight operating systems to make old systems usable<br/><br/>Appointed as Lead Web Developer (<a href=hbsglobal.org>hbsglobal.org</a>)"
       }
     ],
     "skills": [
@@ -88,28 +88,36 @@
         "level": "85%"
       },
       {
+        "name": "TypeScript",
+        "level": "85%"
+      },
+      {
         "name": "Python",
         "level": "85%"
       },
       {
-        "name": "VueJs",
-        "level": "55%"
-      },
-      {
         "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "PHP",
         "level": "80%"
       },
       {
-        "name": "Swift",
-        "level": "50%"
+        "name": "NextJs",
+        "level": "75%"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": "85%"
+      },
+      {
+        "name": "R",
+        "level": "65%"
+      },
+      {
+        "name": "Bash",
+        "level": "65%"
+      },
+      {
+        "name": "Lua",
+        "level": "60%"
       }
     ]
   },
