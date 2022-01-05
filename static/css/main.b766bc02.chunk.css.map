@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Components/styles/mystyle.module.css"],"names":[],"mappings":"AAAA,2BACI,SAAqB,CACrB,iBAAkB,CAClB,iBACJ","file":"main.b766bc02.chunk.css","sourcesContent":[".darkNavBar {\r\n    color: rgb(255, 0, 0);\r\n    font-family: Arial;\r\n    text-align: center;\r\n}"]}
