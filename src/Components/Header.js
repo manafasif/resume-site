@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import background from "../../src/media/header.jpg";
 import Nav from "./Nav";
@@ -27,7 +26,7 @@ class Header extends Component {
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
         }}>
-          {/* <ParticlesBg type="cobweb" config={config} bg={true} /> */}
+
           <Nav />
 
           {/* <div > */}
@@ -49,7 +48,7 @@ class Header extends Component {
               <Fade bottom duration={2000}>
                 <ul className="social">
                   <a href={project} className="button btn project-btn" target="_blank" rel="noreferrer">
-                    <i className="fa fa-book"></i>LinkedIn
+                    <i className="fa fa-linkedin"></i>LinkedIn
                   </a>
                   <a href={github} className="button btn github-btn" target="_blank" rel="noreferrer">
                     <i className="fa fa-github"></i>Github
@@ -68,7 +67,6 @@ class Header extends Component {
           </p>
 
         </header>
-
       </>
 
 
